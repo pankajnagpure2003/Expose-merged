@@ -194,14 +194,7 @@ export default function BuySection() {
             {/* TITLE */}
 
             <h2
-              className="
-                mt-3
-                text-[30px]
-                font-bold
-                uppercase
-                tracking-[-.025em]
-                sm:text-[38px]
-              "
+             className="heading-tight mt-5 mb-[14px]   animate-fadeUp uppercase text-[clamp(34px,6vw,68px)] leading-[.93] text-white"
             >
               Get in{" "}
               <span className="text-purple">

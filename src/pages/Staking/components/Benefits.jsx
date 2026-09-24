@@ -11,7 +11,7 @@ const benefits = [
 
 export default function Benefits() {
   return (
-    <section className="py-20 md:py-[120px] text-white bg-dark">
+    <section className="pt-8 pb-16 md:pt-12 md:pb-24 text-white bg-dark">
       <div className="w-[min(100%-32px,560px)] md:w-[min(1180px,calc(100%-48px))] mx-auto">
         <SectionHeading
           eyebrow="03 / Staking Benefits"

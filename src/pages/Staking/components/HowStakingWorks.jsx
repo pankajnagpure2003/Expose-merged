@@ -11,7 +11,7 @@ const steps = [
 
 export default function HowStakingWorks() {
   return (
-    <section className="py-20 md:py-[120px] bg-white">
+    <section className="pt-8 pb-16 md:pt-12 md:pb-24 bg-white">
       <div className="w-[min(100%-32px,560px)] md:w-[min(1180px,calc(100%-48px))] mx-auto">
         <SectionHeading
           eyebrow="02 /How Staking Works"

@@ -58,10 +58,10 @@ const steps = [
 
 export default function HowItWorks() {
   return (
-    <section
-      id="how-it-works"
-      className="relative overflow-hidden py-20 md:py-28 text-white bg-dark"
-    >
+   <section 
+  id="how-it-works" 
+  className="relative overflow-hidden pt-8 pb-20 md:pt-12 md:pb-28 text-white bg-dark"
+>
       {/* Background glow */}
       <div className="pointer-events-none absolute left-1/2 top-1/3 -translate-x-1/2 w-[500px] h-[500px] rounded-full bg-purple/5 blur-[140px]" />
 
@@ -71,7 +71,7 @@ export default function HowItWorks() {
             WHY PARTICIPATE
         ====================================================== */}
 
-        <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
+        <div className="flex  flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
 
           <SectionHeading
             title={
